@@ -1,6 +1,6 @@
 # 🛍️ Análise de Faturamento e Desempenho de Lojas - Caso Sr. João
 
-Este projeto foi desenvolvido com o objetivo de **ajudar o Sr. João a escolher qual loja deve continuar operando**, com base em dados reais de vendas. Através da análise de faturamento, produtos vendidos, avaliações e comportamento dos clientes, é possível tomar uma decisão estratégica fundamentada em dados.
+Este projeto foi desenvolvido com o objetivo de **ajudar o Sr. João a escolher qual loja deve continuar operando**, com base em dados de vendas. Através da análise de faturamento, produtos vendidos, avaliações e comportamento dos clientes, é possível tomar uma decisão estratégica fundamentada em dados.
 
 ---
 
@@ -26,8 +26,8 @@ O Sr. João é proprietário de **4 lojas**, mas decidiu manter apenas **uma** e
 │
 ├── imagens/
 │   ├── grafico_faturamento_por_loja.png
-│   ├── top3_produtos_loja1.png
-│   └── avaliacao_media.png
+│   ├── faturamento_medio_por_venda_em_cada_loja.png
+│   └── participacao_cada_loja.png
 │
 ├── notebook/
 │   └── analise_lojas_sr_joao.ipynb
@@ -80,13 +80,13 @@ jupyter
 
 1. Clone este repositório:
    ```
-   git clone https://github.com/seu-usuario/alurastorebr-analise.git
+   git clone https://github.com/maxwellsantos94/analise-lojas-sr-joao.git
    ```
 2. Instale as dependências:
    ```
    pip install -r requirements.txt
    ```
-3. Execute o notebook `AluraStoreBr.ipynb` no Jupyter Notebook ou Google Colab.
+3. Execute o notebook `analise-lojas-sr-joao.ipynb` no Jupyter Notebook ou Google Colab.
 
 
 ---
